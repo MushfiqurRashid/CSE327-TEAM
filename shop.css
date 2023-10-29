@@ -1,0 +1,160 @@
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Custom CSS */
+.custom-card {
+    height: 100%; /* Fix card height */
+    border: none; /* Remove card border */
+}
+.custom-card-img {
+    object-fit: cover;
+    height: 200px; /* Set a fixed height for the card image */
+}
+.custom-btn-primary {
+    background-color: #FF1493; /* Pinkish Red background color */
+    border: none; /* Remove button border */
+    color: aliceblue;
+}
+.custom-btn-primary:hover {
+    transform: scale(1.1); /* Add a scale effect on hover */
+    color: aliceblue;
+}
+
+
+/* Custom CSS carts page */
+.custom-cart-item {
+    width: 100%;
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid #e1e1e1;
+}
+.custom-cart-item-image {
+    flex: 1;
+}
+.custom-cart-item-details {
+    flex: 3;
+    padding: 15px;
+}
+.custom-cart-item-remove {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.custom-cart-item-remove-button {
+    background: none;
+    border: none;
+    color: #FF0000;
+    font-size: 1.2em;
+    cursor: pointer;
+}
+
+
+
+/* Custom CSS chekout*/
+      
+.checkout-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  
+}
+.order-description {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-right: 10px;
+    border-radius: 8px;
+}
+.order-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.order-card-image {
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+}
+.order-card-title {
+    flex: 1;
+}
+.order-quantity {
+    display: flex;
+    align-items: center;
+}
+.order-quantity-control {
+    cursor: pointer;
+    margin: 0 10px;
+}
+.order-summary {
+    flex: 1;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+.checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    background-color: #FF1493;
+    border: none;
+    color: #fff;
+    font-size: 1.2em;
+    text-align: center;
+    cursor: pointer;
+}
+.checkout-btn:hover {
+    transform: scale(1.05);
+}
+.summary-section {
+    margin-top: 20px;
+}
+
+
+/* Custom CSS */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+    border-right: 1px solid #555;
+}
+.footer-section:last-child {
+    border-right: none;
+}
+.footer-section h4 {
+    font-size: 20px;
+}
+.footer-section p {
+    font-size: 16px;
+}
+.contact-info i {
+    margin-right: 10px;
+}
+.social-icons a {
+    color: #fff;
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: 24px;
+}
+.useful-links ul {
+    list-style: none;
+    padding: 0;
+}
+.useful-links li {
+    margin-bottom: 10px;
+}
