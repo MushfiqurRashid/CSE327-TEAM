@@ -40,4 +40,4 @@ EduMentor is a web-based education platform that allows students to access their
 1. Clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/edumentor.git
+git clone https://github.com/MushfiqurRashid/CSE327-TEAM.git
