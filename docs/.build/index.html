@@ -1,0 +1,1930 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+            <title>phpDocumentor</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" href="images/favicon.ico"/>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/base.css">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/template.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
+                <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
+        <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
+        <script src="js/template.js"></script>
+        <script src="js/search.js"></script>
+        <script defer src="js/searchIndex.js"></script>
+    </head>
+<body id="top">
+    <header class="phpdocumentor-header phpdocumentor-section">
+    <h1 class="phpdocumentor-title"><a href="" class="phpdocumentor-title__link">phpDocumentor</a></h1>
+    <input class="phpdocumentor-header__menu-button" type="checkbox" id="menu-button" name="menu-button" />
+    <label class="phpdocumentor-header__menu-icon" for="menu-button">
+        <i class="fas fa-bars"></i>
+    </label>
+    <section data-search-form class="phpdocumentor-search">
+    <label>
+        <span class="visually-hidden">Search for</span>
+        <svg class="phpdocumentor-search__icon" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="7.5" cy="7.5" r="6.5" stroke="currentColor" stroke-width="2"/>
+            <line x1="12.4892" y1="12.2727" x2="19.1559" y2="18.9393" stroke="currentColor" stroke-width="3"/>
+        </svg>
+        <input type="search" class="phpdocumentor-field phpdocumentor-search__field" placeholder="Loading .." disabled />
+    </label>
+</section>
+
+    <nav class="phpdocumentor-topnav">
+    <ul class="phpdocumentor-topnav__menu">
+        </ul>
+</nav>
+</header>
+
+    <main class="phpdocumentor">
+        <div class="phpdocumentor-section">
+            <input class="phpdocumentor-sidebar__menu-button" type="checkbox" id="sidebar-button" name="sidebar-button" />
+<label class="phpdocumentor-sidebar__menu-icon" for="sidebar-button">
+    Menu
+</label>
+<aside class="phpdocumentor-column -three phpdocumentor-sidebar">
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/composer.html" class="">Composer</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/composer-autoload.html" class="">Autoload</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/doctrine.html" class="">Doctrine</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/doctrine-instantiator.html" class="">Instantiator</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/deepcopy.html" class="">DeepCopy</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/deepcopy-exception.html" class="">Exception</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/deepcopy-filter.html" class="">Filter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/deepcopy-matcher.html" class="">Matcher</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/deepcopy-reflection.html" class="">Reflection</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/deepcopy-typefilter.html" class="">TypeFilter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/deepcopy-typematcher.html" class="">TypeMatcher</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/phpparser.html" class="">PhpParser</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phpparser-builder.html" class="">Builder</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpparser-comment.html" class="">Comment</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpparser-errorhandler.html" class="">ErrorHandler</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpparser-internal.html" class="">Internal</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpparser-lexer.html" class="">Lexer</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpparser-node.html" class="">Node</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpparser-nodevisitor.html" class="">NodeVisitor</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpparser-parser.html" class="">Parser</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpparser-prettyprinter.html" class="">PrettyPrinter</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/phario.html" class="">PharIo</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phario-manifest.html" class="">Manifest</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phario-version.html" class="">Version</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/phpunit.html" class="">PHPUnit</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phpunit-framework.html" class="">Framework</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpunit-runner.html" class="">Runner</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpunit-textui.html" class="">TextUI</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/phpunit-util.html" class="">Util</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/sebastianbergmann.html" class="">SebastianBergmann</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/sebastianbergmann-codecoverage.html" class="">CodeCoverage</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-fileiterator.html" class="">FileIterator</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-invoker.html" class="">Invoker</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-template.html" class="">Template</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-timer.html" class="">Timer</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-cliparser.html" class="">CliParser</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-codeunit.html" class="">CodeUnit</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-codeunitreverselookup.html" class="">CodeUnitReverseLookup</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-comparator.html" class="">Comparator</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-complexity.html" class="">Complexity</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-diff.html" class="">Diff</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-environment.html" class="">Environment</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-exporter.html" class="">Exporter</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-globalstate.html" class="">GlobalState</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-linesofcode.html" class="">LinesOfCode</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-objectenumerator.html" class="">ObjectEnumerator</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-objectreflector.html" class="">ObjectReflector</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-recursioncontext.html" class="">RecursionContext</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-resourceoperations.html" class="">ResourceOperations</a>
+                
+            </li>
+                    <li>
+                <a href="namespaces/sebastianbergmann-type.html" class="">Type</a>
+                
+            </li>
+            </ul>
+
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="namespaces/theseer.html" class="">TheSeer</a>
+</h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/theseer-tokenizer.html" class="">Tokenizer</a>
+                
+            </li>
+            </ul>
+
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace">
+    <a href="packages/Application.html" class="">Application</a>
+</h4>
+
+                        </section>
+            
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
+                <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/errors.html">Errors</a></h3>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/markers.html">Markers</a></h3>
+    </section>
+
+    <section class="phpdocumentor-sidebar__category">
+        <h2 class="phpdocumentor-sidebar__category-header">Indices</h2>
+        <h3 class="phpdocumentor-sidebar__root-package"><a href="indices/files.html">Files</a></h3>
+    </section>
+</aside>
+
+            <div class="phpdocumentor-column -nine phpdocumentor-content">
+                                        <section>
+        <h2>Documentation</h2>
+
+        
+        
+<h3 id="toc">
+    Table of Contents
+    <a href="namespaces/default.html#toc" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h3>
+
+<h4 id="packages">
+    Packages
+    <a href="namespaces/default.html#packages" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -package"><a href="packages/Application.html"><abbr title="\Application">Application</abbr></a></dt>
+    </dl>
+
+<h4 id="namespaces">
+    Namespaces
+    <a href="namespaces/default.html#namespaces" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/composer.html"><abbr title="\Composer">Composer</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/doctrine.html"><abbr title="\Doctrine">Doctrine</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/deepcopy.html"><abbr title="\DeepCopy">DeepCopy</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/phpparser.html"><abbr title="\PhpParser">PhpParser</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/phario.html"><abbr title="\PharIo">PharIo</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/phpunit.html"><abbr title="\PHPUnit">PHPUnit</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/sebastianbergmann.html"><abbr title="\SebastianBergmann">SebastianBergmann</abbr></a></dt>
+            <dt class="phpdocumentor-table-of-contents__entry -namespace"><a href="namespaces/theseer.html"><abbr title="\TheSeer">TheSeer</abbr></a></dt>
+    </dl>
+
+
+    <h4 id="toc-classes">
+        Classes
+        <a href="namespaces/default.html#toc-classes" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <dl class="phpdocumentor-table-of-contents">
+                    <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Course.html"><abbr title="\Course">Course</abbr></a></dt><dd>Summary of Course</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/User.html"><abbr title="\User">User</abbr></a></dt><dd>Summary of User</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/mysqli.html"><abbr title="\mysqli">mysqli</abbr></a></dt><dd>Represents a connection between PHP and a MySQL database.</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/CourseEnrollmentTest.html"><abbr title="\CourseEnrollmentTest">CourseEnrollmentTest</abbr></a></dt><dd>Summary of CourseEnrollmentTest</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Course.html"><abbr title="\Course">Course</abbr></a></dt><dd>Summary of Course</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/RegistrationTest.html"><abbr title="\RegistrationTest">RegistrationTest</abbr></a></dt><dd>Summary of RegistrationTest</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Registration.html"><abbr title="\Registration">Registration</abbr></a></dt><dd>Summary of Registration</dd>            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/ComposerAutoloaderInita5d21dc4a50810a5a4507a87f52e9d3f.html"><abbr title="\ComposerAutoloaderInita5d21dc4a50810a5a4507a87f52e9d3f">ComposerAutoloaderInita5d21dc4a50810a5a4507a87f52e9d3f</abbr></a></dt>    </dl>
+
+
+
+<h4 id="toc-constants">
+    Constants
+    <a href="namespaces/default.html#toc-constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="namespaces/default.html#constant_ARGS">ARGS</a>
+    <span>
+        &nbsp;= &#039;\\((?&lt;args&gt;[^()]*+(?:\\((?&amp;args)\\)[^()]*+)*+)\\)&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="namespaces/default.html#constant_DB_HOST">DB_HOST</a>
+    <span>
+        &nbsp;= &#039;localhost&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="namespaces/default.html#constant_DB_NAME">DB_NAME</a>
+    <span>
+        &nbsp;= &#039;edu_mentor&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="namespaces/default.html#constant_DB_PASS">DB_PASS</a>
+    <span>
+        &nbsp;= &#039;&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="namespaces/default.html#constant_DB_USER">DB_USER</a>
+    <span>
+        &nbsp;= &#039;circuit&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="namespaces/default.html#constant_LIB">LIB</a>
+    <span>
+        &nbsp;= &#039;(?(DEFINE)
+    (?&lt;singleQuotedString&gt;\&#039;[^\\\\\&#039;]*+(?:\\\\.[^\\\\\&#039;]*+)*+\&#039;)
+    (?&lt;doubleQuotedString&gt;&quot;[^\\\\&quot;]*+(?:\\\\.[^\\\\&quot;]*+)*+&quot;)
+    (?&lt;string&gt;(?&amp;singleQuotedString)|(?&amp;doubleQuotedString))
+    (?&lt;comment&gt;/\\*[^*]*+(?:\\*(?!/)[^*]*+)*+\\*/)
+    (?&lt;code&gt;\\{[^\&#039;&quot;/{}]*+(?:(?:(?&amp;string)|(?&amp;comment)|(?&amp;code)|/)[^\&#039;&quot;/{}]*+)*+})
+)&#039;                            </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="namespaces/default.html#constant_PARAMS">PARAMS</a>
+    <span>
+        &nbsp;= &#039;\\[(?&lt;params&gt;[^[\\]]*+(?:\\[(?&amp;params)\\][^[\\]]*+)*+)\\]&#039;                            </span>
+</dt>
+
+    </dl>
+
+
+
+
+<h4 id="toc-functions">
+    Functions
+    <a href="namespaces/default.html#toc-functions" class="headerlink"><i class="fas fa-link"></i></a>
+
+</h4>
+<dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_userIsLoggedIn">userIsLoggedIn()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Summary of userIsLoggedIn</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_enrollStudentInCourse">enrollStudentInCourse()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Summary of enrollStudentInCourse</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_registration">registration()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Summary of registration</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_login">login()</a>
+    <span>
+                                &nbsp;: null    </span>
+</dt>
+<dd>Summary of login</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_fetchCoursesFromDatabase">fetchCoursesFromDatabase()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_define">define()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Defines a named constant at runtime.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_header">header()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+<dd>Send a raw HTTP header
+header() is used to send a raw HTTP header. See the » HTTP/1.1 specification for more information on HTTP headers.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_md5">md5()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Calculates the MD5 hash of `string` using the » RSA Data Security, Inc. MD5 Message-Digest Algorithm , and returns that hash.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_mysqli_fetch_array">mysqli_fetch_array()</a>
+    <span>
+                                &nbsp;: array&lt;string|int, mixed&gt;|bool|null    </span>
+</dt>
+<dd>Fetch the next row of a result set as an associative, a numeric array, or both
+Fetches one row of data from the result set and returns it as an array. Each subsequent call to this function will return the next row within the result set, or `null` if there are no more rows.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_mysqli_num_rows">mysqli_num_rows()</a>
+    <span>
+                                &nbsp;: int|string    </span>
+</dt>
+<dd>Returns the number of rows in the result set.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_mysqli_query">mysqli_query()</a>
+    <span>
+                                &nbsp;: bool|<abbr title="\mysqli_result">mysqli_result</abbr>    </span>
+</dt>
+<dd>Performs a query on the database
+Performs a `query` against the database.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_mysqli_real_escape_string">mysqli_real_escape_string()</a>
+    <span>
+                                &nbsp;: string    </span>
+</dt>
+<dd>Escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection
+This function is used to create a legal SQL string that you can use in an SQL statement. The given string is encoded to produce an escaped SQL string, taking into account the current character set of the connection.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_session_destroy">session_destroy()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Destroys all data registered to a session
+session_destroy() destroys all of the data associated with the current session. It does not unset any of the global variables associated with the session, or unset the session cookie. To use the session variables again, session_start() has to be called.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_session_start">session_start()</a>
+    <span>
+                                &nbsp;: bool    </span>
+</dt>
+<dd>Start new or resume existing session
+session_start() creates a session or resumes the current one based on a session identifier passed via a GET or POST request, or passed via a cookie.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_composerRequirea5d21dc4a50810a5a4507a87f52e9d3f">composerRequirea5d21dc4a50810a5a4507a87f52e9d3f()</a>
+    <span>
+                                &nbsp;: void    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_preprocessGrammar">preprocessGrammar()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_resolveNodes">resolveNodes()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_resolveMacros">resolveMacros()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_assertArgs">assertArgs()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_resolveStackAccess">resolveStackAccess()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_removeTrailingWhitespace">removeTrailingWhitespace()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_regex">regex()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_magicSplit">magicSplit()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_ensureDirExists">ensureDirExists()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+            <dt class="phpdocumentor-table-of-contents__entry -function -">
+    <a href="namespaces/default.html#function_execCmd">execCmd()</a>
+    <span>
+                                &nbsp;: mixed    </span>
+</dt>
+
+    </dl>
+
+        
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="namespaces/default.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_ARGS">
+        ARGS
+        <a href="namespaces/default.html#constant_ARGS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">16</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">ARGS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;\\((?&lt;args&gt;[^()]*+(?:\\((?&amp;args)\\)[^()]*+)*+)\\)&#039;</span>
+</code>
+
+
+    
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_DB_HOST">
+        DB_HOST
+        <a href="namespaces/default.html#constant_DB_HOST" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="config/connection.php"><a href="files/config-connection.html"><abbr title="config/connection.php">connection.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">4</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">DB_HOST</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;localhost&#039;</span>
+</code>
+
+
+    
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_DB_NAME">
+        DB_NAME
+        <a href="namespaces/default.html#constant_DB_NAME" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="config/connection.php"><a href="files/config-connection.html"><abbr title="config/connection.php">connection.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">7</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">DB_NAME</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;edu_mentor&#039;</span>
+</code>
+
+
+    
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_DB_PASS">
+        DB_PASS
+        <a href="namespaces/default.html#constant_DB_PASS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="config/connection.php"><a href="files/config-connection.html"><abbr title="config/connection.php">connection.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">6</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">DB_PASS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;&#039;</span>
+</code>
+
+
+    
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_DB_USER">
+        DB_USER
+        <a href="namespaces/default.html#constant_DB_USER" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="config/connection.php"><a href="files/config-connection.html"><abbr title="config/connection.php">connection.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">5</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">DB_USER</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;circuit&#039;</span>
+</code>
+
+
+    
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_LIB">
+        LIB
+        <a href="namespaces/default.html#constant_LIB" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">7</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">LIB</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;(?(DEFINE)
+    (?&lt;singleQuotedString&gt;\&#039;[^\\\\\&#039;]*+(?:\\\\.[^\\\\\&#039;]*+)*+\&#039;)
+    (?&lt;doubleQuotedString&gt;&quot;[^\\\\&quot;]*+(?:\\\\.[^\\\\&quot;]*+)*+&quot;)
+    (?&lt;string&gt;(?&amp;singleQuotedString)|(?&amp;doubleQuotedString))
+    (?&lt;comment&gt;/\\*[^*]*+(?:\\*(?!/)[^*]*+)*+\\*/)
+    (?&lt;code&gt;\\{[^\&#039;&quot;/{}]*+(?:(?:(?&amp;string)|(?&amp;comment)|(?&amp;code)|/)[^\&#039;&quot;/{}]*+)*+})
+)&#039;</span>
+</code>
+
+
+    
+    
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_PARAMS">
+        PARAMS
+        <a href="namespaces/default.html#constant_PARAMS" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">15</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+        <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">PARAMS</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;\\[(?&lt;params&gt;[^[\\]]*+(?:\\[(?&amp;params)\\][^[\\]]*+)*+)\\]&#039;</span>
+</code>
+
+
+    
+    
+    
+
+</article>
+            </section>
+
+            <section class="phpdocumentor-functions">
+        <h3 class="phpdocumentor-elements__header" id="functions">
+            Functions
+            <a href="namespaces/default.html#functions" class="headerlink"><i class="fas fa-link"></i></a>
+
+        </h3>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_userIsLoggedIn">
+        userIsLoggedIn()
+        <a href="namespaces/default.html#function_userIsLoggedIn" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/controllers/Home.php"><a href="files/app-controllers-home.html"><abbr title="app/controllers/Home.php">Home.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">8</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Summary of userIsLoggedIn</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">userIsLoggedIn</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+    
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_enrollStudentInCourse">
+        enrollStudentInCourse()
+        <a href="namespaces/default.html#function_enrollStudentInCourse" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/models/Course.php"><a href="files/app-models-course.html"><abbr title="app/models/Course.php">Course.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">9</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Summary of enrollStudentInCourse</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">enrollStudentInCourse</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$courseId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$userId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$courseId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$userId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_registration">
+        registration()
+        <a href="namespaces/default.html#function_registration" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/models/User.php"><a href="files/app-models-user.html"><abbr title="app/models/User.php">User.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">11</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Summary of registration</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">registration</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$password</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$role</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$name</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$email</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$password</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$role</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_login">
+        login()
+        <a href="namespaces/default.html#function_login" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/models/User.php"><a href="files/app-models-user.html"><abbr title="app/models/User.php">User.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Summary of login</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">login</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$email</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">null</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$email</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">null</span>
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_fetchCoursesFromDatabase">
+        fetchCoursesFromDatabase()
+        <a href="namespaces/default.html#function_fetchCoursesFromDatabase" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="app/views/home/index.php"><a href="files/app-views-home-index.html"><abbr title="app/views/home/index.php">index.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">59</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">fetchCoursesFromDatabase</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$conn</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$conn</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_define">
+        define()
+        <a href="namespaces/default.html#function_define" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="manual/function.define.php"><a href="files/manual-function-define.html"><abbr title="manual/function.define.php">function.define.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">11</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Defines a named constant at runtime.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">define</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$constant_name</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$case_insensitive</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$constant_name</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The name of the constant. Note : It is possible to define() constants with reserved or even invalid names, whose value can (only) be retrieved with constant(). However, doing so is not recommended.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The value of the constant. In PHP 5, <code class="prettyprint">value</code> must be a <code class="prettyprint">scalar</code> value (<code class="prettyprint">int</code>, <code class="prettyprint">float</code>, <code class="prettyprint">string</code>, <code class="prettyprint">bool</code>, or <code class="prettyprint">null</code> ). In PHP 7, <code class="prettyprint">array</code> values are also accepted. Warning While it is possible to define <code class="prettyprint">resource</code> constants, it is not recommended and may cause unpredictable behavior.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$case_insensitive</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>If set to <code class="prettyprint">true</code> , the constant will be defined case-insensitive. The default behavior is case-sensitive; i.e. <code class="prettyprint">CONSTANT</code> and <code class="prettyprint">Constant</code> represent different values. Warning Defining case-insensitive constants is deprecated as of PHP 7.3.0. As of PHP 8.0.0, only <code class="prettyprint">false</code> is an acceptable value, passing <code class="prettyprint">true</code> will produce a warning. Note : Case-insensitive constants are stored as lower-case.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Returns <code class="prettyprint">true</code> on success or <code class="prettyprint">false</code> on failure.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_header">
+        header()
+        <a href="namespaces/default.html#function_header" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="manual/function.header.php"><a href="files/manual-function-header.html"><abbr title="manual/function.header.php">function.header.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Send a raw HTTP header
+header() is used to send a raw HTTP header. See the » HTTP/1.1 specification for more information on HTTP headers.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">header</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$header</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$replace</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$response_code</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">0</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$header</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The header string. There are two special-case header calls. The first is a header that starts with the string &quot; <code class="prettyprint">HTTP/</code>&quot; (case is not significant), which will be used to figure out the HTTP status code to send. For example, if you have configured Apache to use a PHP script to handle requests for missing files (using the <code class="prettyprint">ErrorDocument</code> directive), you may want to make sure that your script generates the proper status code.</p>
+<pre class="prettyprint"><code class="prettyprint">&lt;?php
+// This example illustrates the &quot;HTTP/&quot; special case
+// Better alternatives in typical use cases include:
+// 1. header($_SERVER[&quot;SERVER_PROTOCOL&quot;] . &quot; 404 Not Found&quot;);
+//  (to override http status messages for clients that are still using HTTP/1.0)
+// 2. http_response_code(404); (to use the default message)
+header(&quot;HTTP/1.1 404 Not Found&quot;);
+?&gt;
+``` The second special case is the &quot;Location:&quot; header. Not only does it send this header back to the browser, but it also returns a `REDIRECT` (302) status code to the browser unless the `201` or a `3xx` status code has already been set.
+</code></pre>
+<?php
+header("Location: http://www.example.com/"); /* Redirect browser *\
+
+/* Make sure that code below does not get executed when we redirect. *\
+exit;
+?>
+<pre class="prettyprint"><code class="prettyprint"></code></pre>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$replace</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The optional <code class="prettyprint">replace</code> parameter indicates whether the header should replace a previous similar header, or add a second header of the same type. By default it will replace, but if you pass in <code class="prettyprint">false</code> as the second argument you can force multiple headers of the same type. For example:</p>
+<pre class="prettyprint"><code class="prettyprint">&lt;?php
+header('WWW-Authenticate: Negotiate');
+header('WWW-Authenticate: NTLM', false);
+?&gt;
+</code></pre>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$response_code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">0</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Forces the HTTP response code to the specified value. Note that this parameter only has an effect if the <code class="prettyprint">header</code> is not empty.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_md5">
+        md5()
+        <a href="namespaces/default.html#function_md5" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="manual/function.md5.php"><a href="files/manual-function-md5.html"><abbr title="manual/function.md5.php">function.md5.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">10</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Calculates the MD5 hash of `string` using the » RSA Data Security, Inc. MD5 Message-Digest Algorithm , and returns that hash.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">md5</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$string</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$binary</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The string.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$binary</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>If the optional <code class="prettyprint">binary</code> is set to <code class="prettyprint">true</code> , then the md5 digest is instead returned in raw binary format with a length of 16.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Returns the hash as a 32-character hexadecimal number.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_mysqli_fetch_array">
+        mysqli_fetch_array()
+        <a href="namespaces/default.html#function_mysqli_fetch_array" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="manual/function.mysqli-fetch-array.php"><a href="files/manual-function-mysqli-fetch-array.html"><abbr title="manual/function.mysqli-fetch-array.php">function.mysqli-fetch-array.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">11</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Fetch the next row of a result set as an associative, a numeric array, or both
+Fetches one row of data from the result set and returns it as an array. Each subsequent call to this function will return the next row within the result set, or `null` if there are no more rows.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">mysqli_fetch_array</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli_result">mysqli_result</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$result</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mode</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">MYSQLI_BOTH</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|bool|null</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$result</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli_result">mysqli_result</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Procedural style only: A mysqli_result object returned by mysqli_query(), mysqli_store_result(), mysqli_use_result() or mysqli_stmt_get_result().</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$mode</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">MYSQLI_BOTH</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>This optional parameter is a constant indicating what type of array should be produced from the current row data. The possible values for this parameter are the constants <code class="prettyprint">MYSQLI_ASSOC</code> , <code class="prettyprint">MYSQLI_NUM</code> , or <code class="prettyprint">MYSQLI_BOTH</code> . By using the <code class="prettyprint">MYSQLI_ASSOC</code> constant this function will behave identically to the mysqli_fetch_assoc(), while <code class="prettyprint">MYSQLI_NUM</code> will behave identically to the mysqli_fetch_row() function. The final option <code class="prettyprint">MYSQLI_BOTH</code> will create a single array with the attributes of both.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">array&lt;string|int, mixed&gt;|bool|null</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Returns an array representing the fetched row, <code class="prettyprint">null</code> if there are no more rows in the result set, or <code class="prettyprint">false</code> on failure.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_mysqli_num_rows">
+        mysqli_num_rows()
+        <a href="namespaces/default.html#function_mysqli_num_rows" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="manual/function.mysqli-num-rows.php"><a href="files/manual-function-mysqli-num-rows.html"><abbr title="manual/function.mysqli-num-rows.php">function.mysqli-num-rows.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">9</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Returns the number of rows in the result set.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">mysqli_num_rows</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli_result">mysqli_result</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$result</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int|string</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$result</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\mysqli_result">mysqli_result</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Procedural style only: A mysqli_result object returned by mysqli_query(), mysqli_store_result(), mysqli_use_result() or mysqli_stmt_get_result().</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">int|string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>An <code class="prettyprint">int</code> representing the number of fetched rows. Returns <code class="prettyprint">0</code> in unbuffered mode unless all rows have been fetched from the server.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_mysqli_query">
+        mysqli_query()
+        <a href="namespaces/default.html#function_mysqli_query" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="manual/function.mysqli-query.php"><a href="files/manual-function-mysqli-query.html"><abbr title="manual/function.mysqli-query.php">function.mysqli-query.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">12</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Performs a query on the database
+Performs a `query` against the database.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">mysqli_query</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/mysqli.html"><abbr title="\mysqli">mysqli</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mysql</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$query</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$result_mode</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">MYSQLI_STORE_RESULT</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool|<abbr title="\mysqli_result">mysqli_result</abbr></span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$mysql</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/mysqli.html"><abbr title="\mysqli">mysqli</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Procedural style only: A mysqli object returned by mysqli_connect() or mysqli_init()</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$query</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The query string.</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$result_mode</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">MYSQLI_STORE_RESULT</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The result mode can be one of 3 constants indicating how the result will be returned from the MySQL server. <code class="prettyprint">MYSQLI_STORE_RESULT</code> (default) - returns a mysqli_result object with buffered result set. <code class="prettyprint">MYSQLI_USE_RESULT</code> - returns a mysqli_result object with unbuffered result set. As long as there are pending records waiting to be fetched, the connection line will be busy and all subsequent calls will return error <code class="prettyprint">Commands out of sync</code>. To avoid the error all records must be fetched from the server or the result set must be discarded by calling mysqli_free_result(). <code class="prettyprint">MYSQLI_ASYNC</code> (available with mysqlnd) - the query is performed asynchronously and no result set is immediately returned. mysqli_poll() is then used to get results from such queries. Used in combination with either <code class="prettyprint">MYSQLI_STORE_RESULT</code> or <code class="prettyprint">MYSQLI_USE_RESULT</code> constant.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool|<abbr title="\mysqli_result">mysqli_result</abbr></span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Returns <code class="prettyprint">false</code> on failure. For successful queries which produce a result set, such as <code class="prettyprint">SELECT, SHOW, DESCRIBE</code> or <code class="prettyprint">EXPLAIN</code>, mysqli_query() will return a mysqli_result object. For other successful queries, mysqli_query() will return <code class="prettyprint">true</code> .</p>
+</section>
+
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_mysqli_real_escape_string">
+        mysqli_real_escape_string()
+        <a href="namespaces/default.html#function_mysqli_real_escape_string" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="manual/function.mysqli-real-escape-string.php"><a href="files/manual-function-mysqli-real-escape-string.html"><abbr title="manual/function.mysqli-real-escape-string.php">function.mysqli-real-escape-string.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">12</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Escapes special characters in a string for use in an SQL statement, taking into account the current charset of the connection
+This function is used to create a legal SQL string that you can use in an SQL statement. The given string is encoded to produce an escaped SQL string, taking into account the current character set of the connection.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">mysqli_real_escape_string</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/mysqli.html"><abbr title="\mysqli">mysqli</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$mysql</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$string</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$mysql</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/mysqli.html"><abbr title="\mysqli">mysqli</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>Procedural style only: A mysqli object returned by mysqli_connect() or mysqli_init()</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>The string to be escaped. Characters encoded are <code class="prettyprint">NUL (ASCII 0), \n, \r, \, ', &quot;, and Control-Z</code>.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">string</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Returns an escaped string.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_session_destroy">
+        session_destroy()
+        <a href="namespaces/default.html#function_session_destroy" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="manual/function.session-destroy.php"><a href="files/manual-function-session-destroy.html"><abbr title="manual/function.session-destroy.php">function.session-destroy.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">8</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Destroys all data registered to a session
+session_destroy() destroys all of the data associated with the current session. It does not unset any of the global variables associated with the session, or unset the session cookie. To use the session variables again, session_start() has to be called.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">session_destroy</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+    
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>Returns <code class="prettyprint">true</code> on success or <code class="prettyprint">false</code> on failure.</p>
+</section>
+
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_session_start">
+        session_start()
+        <a href="namespaces/default.html#function_session_start" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="manual/function.session-start.php"><a href="files/manual-function-session-start.html"><abbr title="manual/function.session-start.php">function.session-start.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">10</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Start new or resume existing session
+session_start() creates a session or resumes the current one based on a session identifier passed via a GET or POST request, or passed via a cookie.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">session_start</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$options</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$options</span>
+                : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, mixed&gt;|null</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>If provided, this is an associative array of options that will override the currently set session configuration directives . The keys should not include the <code class="prettyprint">session.</code> prefix. In addition to the normal set of configuration directives, a <code class="prettyprint">read_and_close</code> option may also be provided. If set to <code class="prettyprint">true</code> , this will result in the session being closed immediately after being read, thereby avoiding unnecessary locking if the session data won't be changed.</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+            <section>
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+        <span class="phpdocumentor-signature__response_type">bool</span>
+                    &mdash;
+                <section class="phpdocumentor-description"><p>This function returns <code class="prettyprint">true</code> if a session was successfully started, otherwise <code class="prettyprint">false</code> .</p>
+</section>
+
+            </section>
+
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_composerRequirea5d21dc4a50810a5a4507a87f52e9d3f">
+        composerRequirea5d21dc4a50810a5a4507a87f52e9d3f()
+        <a href="namespaces/default.html#function_composerRequirea5d21dc4a50810a5a4507a87f52e9d3f" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/composer/autoload_real.php"><a href="files/vendor-composer-autoload-real.html"><abbr title="vendor/composer/autoload_real.php">autoload_real.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">71</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">composerRequirea5d21dc4a50810a5a4507a87f52e9d3f</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$fileIdentifier</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$file</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$fileIdentifier</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$file</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_preprocessGrammar">
+        preprocessGrammar()
+        <a href="namespaces/default.html#function_preprocessGrammar" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">22</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">preprocessGrammar</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$code</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_resolveNodes">
+        resolveNodes()
+        <a href="namespaces/default.html#function_resolveNodes" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">30</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">resolveNodes</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$code</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_resolveMacros">
+        resolveMacros()
+        <a href="namespaces/default.html#function_resolveMacros" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">53</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">resolveMacros</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$code</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_assertArgs">
+        assertArgs()
+        <a href="namespaces/default.html#function_assertArgs" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">146</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">assertArgs</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$num</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$args</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$name</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$num</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$args</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$name</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_resolveStackAccess">
+        resolveStackAccess()
+        <a href="namespaces/default.html#function_resolveStackAccess" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">152</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">resolveStackAccess</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$code</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_removeTrailingWhitespace">
+        removeTrailingWhitespace()
+        <a href="namespaces/default.html#function_removeTrailingWhitespace" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">158</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">removeTrailingWhitespace</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$code</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$code</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_regex">
+        regex()
+        <a href="namespaces/default.html#function_regex" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">168</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">regex</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$regex</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$regex</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_magicSplit">
+        magicSplit()
+        <a href="namespaces/default.html#function_magicSplit" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/phpyLang.php"><a href="files/vendor-nikic-php-parser-grammar-phpylang.html"><abbr title="vendor/nikic/php-parser/grammar/phpyLang.php">phpyLang.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">172</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">magicSplit</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$regex</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$string</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$regex</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$string</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_ensureDirExists">
+        ensureDirExists()
+        <a href="namespaces/default.html#function_ensureDirExists" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/rebuildParsers.php"><a href="files/vendor-nikic-php-parser-grammar-rebuildparsers.html"><abbr title="vendor/nikic/php-parser/grammar/rebuildParsers.php">rebuildParsers.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">68</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">ensureDirExists</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$dir</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$dir</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+                    <article class="phpdocumentor-element -function - ">
+    <h4 class="phpdocumentor-element__name" id="function_execCmd">
+        execCmd()
+        <a href="namespaces/default.html#function_execCmd" class="headerlink"><i class="fas fa-link"></i></a>
+
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="vendor/nikic/php-parser/grammar/rebuildParsers.php"><a href="files/vendor-nikic-php-parser-grammar-rebuildparsers.html"><abbr title="vendor/nikic/php-parser/grammar/rebuildParsers.php">rebuildParsers.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">74</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility"></span>
+                    <span class="phpdocumentor-signature__name">execCmd</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">mixed&nbsp;</span><span class="phpdocumentor-signature__argument__name">$cmd</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$cmd</span>
+                : <span class="phpdocumentor-signature__argument__return-type">mixed</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+    
+</article>
+            </section>
+
+    </section>
+                            </div>
+            <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
+    <section class="phpdocumentor-search-results__dialog">
+        <header class="phpdocumentor-search-results__header">
+            <h2 class="phpdocumentor-search-results__title">Search results</h2>
+            <button class="phpdocumentor-search-results__close"><i class="fas fa-times"></i></button>
+        </header>
+        <section class="phpdocumentor-search-results__body">
+            <ul class="phpdocumentor-search-results__entries"></ul>
+        </section>
+    </section>
+</section>
+        </div>
+        <a href="index.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+
+    </main>
+
+    <script>
+        cssVars({});
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
+</body>
+</html>

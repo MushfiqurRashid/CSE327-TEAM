@@ -1,0 +1,127 @@
+.response-button{
+    padding-top: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e8f5fc;
+    justify-content: center;
+
+}
+.btn-box-direction{
+
+    background-color: #0e79b3;
+    padding-left: 50px ;
+    padding-right: 50px ;
+    border-radius: 15px;
+}
+.btn-box{
+    height: 50px;
+    width: 150px;
+    color: #fff;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    line-height: 50px;
+
+}
+.form-box{
+    padding-top: 50px;
+    background-color: #e8f5fc;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 750px;
+}
+.custom-btn:hover{
+    background-color: #c2b3b8;
+    border: solid #e8f5fc 2px;
+    border-radius: 10px;
+}
+.input-text{
+    text-align: center;
+}
+.regiser-container{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+.login-container{
+    margin-top: 50px;
+}
+.login-page-button{
+    padding-top: 50px;
+}
+#register.input-group{
+    top: 200px;
+    position: absolute;
+    width: 350px;
+    transition: .5s;
+}
+::-webkit-input-placeholder{
+    color: #000;
+}
+:focus::-webkit-input-placeholder{
+    opacity: 10;
+}
+.input-field{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #000;
+    outline: none;
+    background-color: black;
+    background: transparent;
+    border-radius: 15px;
+}
+.user-type{
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid white;
+    outline: none;
+    background-color: black;
+    background: transparent;
+}
+.submit-btn{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background-color: #fff;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box{
+    margin: 30px 10px 30px 0;
+}
+span{
+    color: #000;
+    font-size: 12px;
+    bottom: 68px;
+    position: absolute;
+}
+#login{
+    left: 50px;
+}
+#register{
+    left: 50px;
+}
+.reset-pass{
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    padding-left: 45px;
+    margin-top: 600px;
+}
+.two-col{
+    padding: 10px;
+}
