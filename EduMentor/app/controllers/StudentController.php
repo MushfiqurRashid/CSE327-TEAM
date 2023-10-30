@@ -1,5 +1,4 @@
 <?php
-
 // Include necessary dependencies and models
 require_once('../models/Student.php');
 

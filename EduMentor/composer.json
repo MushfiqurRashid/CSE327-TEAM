@@ -1,0 +1,6 @@
+{
+    "name": "talha/edu-mentor-final",
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}

@@ -26,6 +26,18 @@ class Student {
         return $courses;
     }
 
-    // Additional methods for the Student model can be added here
+    // Get available courses for a student
+    public function getAvailableCourses($studentId) {
+        $courses = [];
+        try {
+            // Add your SQL query to retrieve available courses
+            // Example query: "SELECT * FROM courses WHERE id NOT IN (SELECT course_id FROM enrollments WHERE student_id = :studentId)"
+            // Execute the query and retrieve the available courses
+        } catch (PDOException $e) {
+            // Handle database errors
+            echo "Error: " . $e->getMessage();
+        }
+        return $courses;
+    }
 }
 ?>

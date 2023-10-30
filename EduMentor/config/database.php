@@ -3,8 +3,8 @@
 $databaseConfig = array(
     'host' => 'localhost',    // Database host (usually 'localhost')
     'dbname' => 'edumentor',  // Database name
-    'username' => 'your_username', // Your database username
-    'password' => 'your_password', // Your database password
+    'username' => 'root', // Your database username
+    'password' => '', // Your database password
 );
 
 try {

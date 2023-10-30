@@ -1,9 +1,6 @@
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-  RewriteBase /EduMentor/public/  # Adjust this path to match your project structure
+RewriteEngine On
+RewriteBase /EduMentor(final)/
 
-  # Redirect all requests to the index.php file
-  RewriteCond %{REQUEST_FILENAME} !-f
-  RewriteCond %{REQUEST_FILENAME} !-d
-  RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
-</IfModule>
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.php [L]
