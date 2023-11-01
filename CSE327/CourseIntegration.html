@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Course Integration</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-5">Create a Course</h1>
+        <form action="create_course.php" method="post" enctype="multipart/form-data" class="mt-3">
+            <div class="form-group">
+                <label for="course_title">Course Title:</label>
+                <input type="text" class="form-control" id="course_title" name="course_title" required>
+            </div>
+
+            <div class="form-group">
+                <label for="course_description">Course Description:</label>
+                <textarea class="form-control" id="course_description" name="course_description" required></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="course_materials">Course Materials (PDFs or Videos):</label>
+                <input type="file" class="form-control" id="course_materials" name="course_materials[]" multiple accept=".pdf, .mp4" required>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Create Course</button>
+        </form>
+    </div>
+</body>
+</html>
